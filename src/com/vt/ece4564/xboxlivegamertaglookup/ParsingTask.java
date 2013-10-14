@@ -110,7 +110,7 @@ public class ParsingTask extends AsyncTask<Void, Void, Void> {
 
 			TableLayout table2 = (TableLayout) activity_
 					.findViewById(R.id.RecentGamesTable);
-
+			table2.removeAllViews();
 			// Creates a view for the recent games
 			for (int i = 0; i < recentTable.size(); i++) {
 				// try {
